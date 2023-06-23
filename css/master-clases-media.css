@@ -1,0 +1,226 @@
+@media(max-width: 1264px){
+
+/* * technology */
+
+/* .technology_list{
+    padding-left: 120px;
+} */
+
+/* * footer */
+
+    .footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .info{
+        margin: 0 auto;
+        order: 4;
+        margin-bottom: 115px;
+    }
+    .footer_menu{
+        order: 2;
+        flex-direction: column;
+        margin-bottom: 53px;
+    }
+    .additional_info{
+        order: 3;
+        margin-bottom: 53px;
+        
+    }
+    .footer_socoal_icons{
+        justify-content: center;
+        margin-bottom: 111px;
+    }
+
+}
+@media(max-width: 778px){
+    /* * nav */
+        .nav{
+            justify-content: flex-end;
+        }
+        .logo_link{
+            display: none;
+        }
+        .menu_left,
+        .menu_right{
+            display: none;
+        }
+    
+    /* * nav mobile */
+        .nav_mobile{
+            display: block;
+            width: 100%;
+            background-color: #debfa6;
+            position: absolute;
+            left: 0;
+            padding: 5px;
+            margin-top: -200px;
+        }
+        
+        .nav_mobile_opem{
+            margin-top: -68px;
+        }
+        .nav_mobile .logo_link{
+            display: block;
+            position: absolute;
+        }
+        .menu_burger{
+            border: none;
+            outline: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            order: 3;
+            width: 68px;
+            height: 18px;
+            position: relative;
+            z-index: 3;
+        }
+        .menu_burger_icon{
+            width: 100%;
+            height: 4px;
+            background-color: #57463A;
+        }
+        .menu_burger_icon::before,
+        .menu_burger_icon::after{
+            content: "";
+            display: flex;
+            width: 100%;
+            height: 4px;
+            background-color: #57463A;
+        } 
+        .menu_burger_icon::before{
+            position: absolute;
+            top: 0px;
+        
+        }
+        .menu_burger_icon::after{
+            position: absolute;
+            bottom: 0px;
+        }
+        .menu_burger_icon.active{
+            background-color: transparent;
+        }
+        .menu_burger_icon.active::before{
+            top: 0;
+            transform: rotate(46deg);
+        }
+        .menu_burger_icon.active::after{
+            top: 0;
+            transform: rotate(-46deg);
+        }
+        .menu_mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* * header */
+
+        .header_content{
+            padding: 0;
+            padding-top: 249px;
+        }
+        .header_title{
+            max-width: 325px;
+            margin: 0 auto;
+            font-size: 32px;
+            text-align: left;
+            margin-bottom: 62px;
+        }
+        .link_header{
+            padding: 18px 40px;
+        }
+
+        /*  * restoratiom master clases */
+
+        .restoratiom_master_clases_grid{
+            justify-content: center;
+        }
+}
+@media(max-width: 630px){
+    .section_title{
+        max-width: 250px;
+        font-size: 32px;
+    }
+    .section_title_mobile{
+        max-width: 300px;
+    }
+
+     /* * our work */
+
+     .our_work{
+        padding-top: 77px;
+        padding-bottom: 86px;
+    }
+    .works{
+        padding-top: 77px;
+        justify-content: center;
+    }
+
+    /* * technology */
+
+    .technology{
+        padding-bottom: 98px;
+    }
+    
+    /* * restoratiom */
+
+    .restoratiom{
+        padding-bottom: 90px;
+    }
+    .content_restoration{
+        padding-top: 115px;
+    }
+    .title_restoration{
+        max-width: 360px;
+        margin: 0 auto;
+        font-size: 32px;
+    }
+
+     /*  * restoratiom master clases */
+
+     .restoratiom_master_clases{
+        margin-bottom: 98px;
+    }
+    .restoratiom_master_clases_grid{
+        gap: 97px 20px;
+        margin-top: 155px;
+    }
+
+    /* * carpentry master clases */
+    
+    .carpentry_master_clases{
+        padding-bottom: 98px;
+    }
+    .carpentry_master_clases_flex{
+        padding-top: 40px;
+        justify-content: center;
+        row-gap: 32px;
+    }
+    .card_carpentry_master_clases p{
+        max-width: 218px;
+        margin: 0 auto;
+    }
+
+    /* * footer */
+    
+        .footer_content{
+            flex-direction: column;
+            text-align: left;
+        }
+        .info{
+            margin-left: 0;
+        }
+        .footer_menu{
+            flex-direction: column;
+        }
+        .additional_info{
+            order: 3;
+            margin-bottom: 53px;  
+        }
+        .footer_socoal_icons{
+            justify-content: start;
+        }
+}

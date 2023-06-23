@@ -1,0 +1,283 @@
+/* * font-family: 'Tenor Sans', sans-serif; */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #f3efea;
+}
+.none{
+    display: none;
+}
+
+.container{
+    max-width: 1198px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section_title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #57463A;
+}
+/* * nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    margin-bottom: 20px;
+}
+.nav_mobile{
+    display: none;
+}
+.menu_burger{
+    display: none;
+}
+
+.menu_left {
+    display: flex;
+    justify-content: space-between;
+    width: 329px;
+}
+.menu_right {
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+}
+.item_menu_active{
+    border-bottom: solid 2px #a1b29f;
+}
+.menu_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #323232;
+}
+.menu_link:hover{
+    border-bottom: solid 2px #a1b29f;
+}
+
+/* * header */
+
+.header_content{
+    border-top: 1px solid #000000;
+    padding-top: 120px;
+}
+.header_title{
+    max-width: 734px;
+    margin: 0 auto;
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header_title span{
+    text-transform: uppercase;
+}
+.bg_about_us_header{
+    display: none;
+    width: 100%;
+    height: 264px;
+    background: url("../images/img-about-us-header.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* * advantages */
+
+.advantages{
+    padding-bottom: 160px;
+}
+.advantages_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 15px;
+    padding-top: 157px;
+}
+.advantage{
+    max-width: 340px;
+    min-height: 150px;
+}
+.advantage span{
+    display: block;
+    font-family: 'Tenor Sans',sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.advantage p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    text-align: center;
+}
+
+/* * info about founder */
+
+.info_about_founder{
+    padding-bottom: 160px;
+}
+
+.content_info_about_founder{
+    display: flex;
+    column-gap: 40px;
+}
+.description_about_founder{
+    max-width: 660px;
+}
+.description_about_founder h2{
+    font-family: 'Tenor Sans',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.description_about_founder h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.description_about_founder p{
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+/* * our philosophy */
+
+.our_philosophy{
+    padding-bottom: 160px;
+}
+.our_philosophy_title{
+    margin-bottom: 70px;
+}
+.our_philosophy_title span{
+    text-transform: uppercase;
+}
+.philosophy_text{
+    max-width: 695px;
+    margin-left: auto;
+    font-size: 24px;
+    line-height: 150%;
+    color: #323232;
+    text-align: right;
+}
+
+/* * news about us */
+
+.news_about_us{
+    padding-bottom: 165px;
+}
+.news_about_us_title{
+    margin-bottom: 20px;
+}
+.news_about_us_title span{
+    text-transform: uppercase;
+}
+.nevs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 20px;
+    padding-top: 100px;
+}
+/* .nevs img{
+  
+} */
+
+
+/* * contacts */
+
+.contacts{
+    padding-bottom: 243px;
+}
+.contacts_title{
+    margin-bottom: 100px;
+}
+.content_contacts{
+    text-align: center;
+}
+.link_more{
+    display: inline-block;
+    width: 245px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background-color: #a1b29f;
+    text-align: center;
+    padding-top: 18px;
+    transition: background-color 0.5s ease;
+}
+.link_more:hover{
+    color: #a1b29f;
+    background-color: #ffffff;
+    border: 1px solid #a1b29f;
+}
+
+/* * footer */
+
+.footer{
+    max-width: 100%;
+    min-height: 380px;
+    background-color: #715B4B;
+}
+.footer_content{
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    max-width: 248px;
+}
+.info p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.footer_menu{
+    display: flex;
+    column-gap: 52px;
+}
+.list_footer_menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.link_footer_menu{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.additional_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.link_additional_info{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.footer_socoal_icons{
+    display: flex;
+    column-gap: 18px;
+}

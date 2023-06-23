@@ -1,0 +1,244 @@
+@media(max-width: 1264px){
+/* * footer */
+
+    .footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .info{
+        margin: 0 auto;
+        order: 4;
+        margin-bottom: 115px;
+    }
+    .footer_menu{
+        order: 2;
+        flex-direction: column;
+        margin-bottom: 53px;
+    }
+    .additional_info{
+        order: 3;
+        margin-bottom: 53px;
+        
+    }
+    .footer_socoal_icons{
+        justify-content: center;
+        margin-bottom: 111px;
+    }
+
+}
+@media(max-width: 778px){
+/* * nav */
+
+    .nav{
+        justify-content: flex-end;
+    }
+    .logo_link{
+        display: none;
+    }
+    .menu_left,
+    .menu_right{
+        display: none;
+    }
+
+/* * nav mobile */
+
+    .nav_mobile{
+        display: block;
+        width: 100%;
+        background-color: #debfa6;
+        position: absolute;
+        left: 0;
+        padding: 5px;
+        margin-top: -200px;
+    }
+    .nav_mobile_opem{
+        margin-top: -68px;
+    }
+    .nav_mobile .logo_link{
+        display: block;
+        position: absolute;
+    }
+    .menu_burger{
+        border: none;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+        width: 68px;
+        height: 18px;
+        position: relative;
+        z-index: 3;
+    }
+    .menu_burger_icon{
+        width: 100%;
+        height: 4px;
+        background-color: #57463A;
+    }
+    .menu_burger_icon::before,
+    .menu_burger_icon::after{
+        content: "";
+        display: flex;
+        width: 100%;
+        height: 4px;
+        background-color: #57463A;
+    } 
+    .menu_burger_icon::before{
+        position: absolute;
+        top: 0px;
+    
+    }
+    .menu_burger_icon::after{
+        position: absolute;
+        bottom: 0px;
+    }
+    .menu_burger_icon.active{
+        background-color: transparent;
+    }
+    .menu_burger_icon.active::before{
+        top: 0;
+        transform: rotate(46deg);
+    }
+    .menu_burger_icon.active::after{
+        top: 0;
+        transform: rotate(-46deg);
+    }
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* * info about founder */
+
+    .container_for_img_info_about_founder{
+        display: none;
+    }
+    .bg_img_info_about_founder{
+        display: inline-block;
+        width: 100%;
+        height: 462px;
+        background: url("../images/img-info-about-founder.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 60px;
+    }
+
+    /* * news about us */
+
+    .nevs{
+        justify-content: center;
+    }
+}
+@media(max-width: 630px){
+.section_title{
+    max-width: 248px;
+    font-size: 32px;
+}
+
+/* * header */
+
+.header_content{
+    border: none;
+    padding: 0;
+    padding-top: 73px;
+}
+.header_title{
+    max-width: 314px;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 49px;
+}
+.img_about_us_header{
+    display: none;
+}
+.bg_about_us_header{
+    display: block;
+}
+
+/* * advantages */
+
+.advantages{
+    padding-bottom: 90px;
+}
+.advantages_list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+}
+.advantage span{
+    text-align: left;
+}
+.advantage p{
+    text-align: left;
+}
+
+/* * info about founder */
+
+.info_about_founder{
+    padding-bottom: 90px;
+}
+.content_info_about_founder{
+    flex-direction: column;
+}
+.description_about_founder h2{
+    margin-bottom: 10px;
+}
+.description_about_founder p{
+    max-width: 300px;
+    margin-bottom: 16px;
+}
+
+/* * our philosophy */
+
+.our_philosophy{
+    padding-bottom: 90px;
+}
+.our_philosophy_title{
+    margin-bottom: 60px;
+}
+.philosophy_text{
+    max-width: 300px;
+    font-size: 16px;
+}
+
+/* * news about us */
+
+.news_about_us{
+    padding-bottom: 90px;
+}
+.nevs{
+    padding-top: 60px;
+}
+
+/* * contacts */
+
+.contacts{
+    padding-bottom: 150px;
+}
+.contacts_title{
+    max-width: 287px;
+    margin-bottom: 50px;
+}
+
+/* * footer */
+
+    .footer_content{
+        flex-direction: column;
+        text-align: left;
+    }
+    .info{
+        margin-left: 0;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .additional_info{
+        order: 3;
+        margin-bottom: 53px;  
+    }
+    .footer_socoal_icons{
+        justify-content: start;
+    }
+}

@@ -1,0 +1,347 @@
+/* * font-family: 'Tenor Sans', sans-serif; */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #f3efea;
+}
+.none{
+    display: none;
+}
+
+.container{
+    max-width: 1198px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section_title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #57463A;
+}
+/* * nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    margin-bottom: 20px;
+}
+.nav_mobile{
+    display: none;
+}
+.menu_burger{
+    display: none;
+}
+
+.menu_left {
+    display: flex;
+    justify-content: space-between;
+    width: 329px;
+}
+.menu_right {
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+}
+.item_menu_active{
+    border-bottom: solid 2px #a1b29f;
+}
+.menu_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #323232;
+}
+.menu_link:hover{
+    border-bottom: solid 2px #a1b29f;
+}
+
+/* * header */
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+.header_img{
+    display: block;
+    max-width: 100%;
+}
+.header_subtitle_before,
+.header_subtitle_after{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #323232;
+}
+.header_subtitle_before span{
+    text-transform: uppercase;
+}
+.header_title{
+    max-width: 514px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    color: #57463A;
+    padding-top: 17px;
+    padding-bottom: 40px;
+}
+.header_subtitle_after{
+    margin-bottom: 70px;
+}
+.link_more{
+    display: inline-block;
+    width: 245px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background-color: #a1b29f;
+    text-align: center;
+    padding-top: 18px;
+    transition: background-color 0.5s ease;
+}
+.link_more:hover{
+    color: #a1b29f;
+    background-color: #ffffff;
+    border: 1px solid #a1b29f;
+}
+.social_icons{
+    padding-top: 98px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 40px;
+}
+/* * about company */
+
+.about_company{
+    padding: 160px 0;
+}
+.section_title span{
+    text-transform: uppercase;
+}
+.about_company_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    padding-top: 100px;
+}
+.about_company_card{
+    border-bottom: 3px solid #715B4B;
+}
+.about_company_card p{
+    max-width: 270px;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #323232;
+    padding-bottom: 14px;
+}
+
+/* * product */
+
+.product{
+    padding-bottom: 160px;
+}
+.products{
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,290px);
+    justify-content: center;
+    margin-top: 100px;
+}
+.card_product{
+    max-width: 290px;
+    min-height: 242px;
+    border: 1px solid #000000
+}
+.card_product img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.product_name{
+    line-height: 102.99%;
+    color: #323232;
+    text-align: center;
+}
+/* * about us */
+
+.about_us{
+    min-height: 300px;
+    padding-bottom: 160px;
+}
+.title_center{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.about_us_container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 475px;
+    background-color: #ebeeeb;
+}
+.description_about_us{
+    padding-top: 68px;
+}
+.title_about_us{
+    max-width: 515px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.text_about_us{
+    max-width: 515px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 53px;
+}
+
+/* * our services */
+
+.our_services{
+    padding-bottom: 200px;
+}
+.our_services_content{
+    padding-top: 100px;
+}
+.custom_made_furniture_container{
+    display: flex;
+    max-width: 100%;
+    min-height: 536px;
+    background-color: #e3dace;
+}
+.our_services_description{
+    padding-top: 110px;
+}
+.title_our_services_description{
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.text_our_services_description{
+    max-width: 537px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 56px;
+}
+.master_clases_container{
+    display: flex;
+    max-width: 100%;
+    min-height: 536px;
+    background-color: #d4cdc3;
+}
+
+/* * guarantee */
+.guarantee{
+    padding-bottom: 200px;
+}
+.title_guarantee_mobile{
+    display: none;
+}
+.margin_border{
+    max-width: 100%;
+    min-height: 590px;
+    border: 7px solid #a1b29f;
+    margin: 0 auto;
+}
+.padding_border{
+    position: relative;
+    max-width: 1135px;
+    min-height: 563px;
+    border: 1px solid #715B4B;
+    margin: 0 auto;
+    margin-top: 7px;
+    padding-top: 92px;
+}
+.title_guarantee{
+    max-width: 658px;
+    margin: 0 auto;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title_guarantee span{
+    text-transform: uppercase;
+}
+.guarantee_text{
+    max-width: 922px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+.container_for_logo{
+    position: absolute;
+    bottom: 38px;
+    right: 62px;
+}
+
+/* * footer */
+
+.footer{
+    max-width: 100%;
+    min-height: 380px;
+    background-color: #715B4B;
+}
+.footer_content{
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    max-width: 248px;
+}
+.info p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.footer_menu{
+    display: flex;
+    column-gap: 52px;
+}
+.list_footer_menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.link_footer_menu{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.additional_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.link_additional_info{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.footer_socoal_icons{
+    display: flex;
+    column-gap: 18px;
+}

@@ -1,0 +1,307 @@
+/* * font-family: 'Tenor Sans', sans-serif; */
+/* html{
+    
+} */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #f3efea;
+}
+.none{
+    display: none;
+}
+
+.container{
+    max-width: 1198px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section_title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #57463A;
+}
+/* * nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    margin-bottom: 20px;
+}
+.nav_mobile{
+    display: none;
+}
+.menu_burger{
+    display: none;
+}
+
+.menu_left {
+    display: flex;
+    justify-content: space-between;
+    width: 329px;
+}
+.menu_right {
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+}
+.item_menu_active{
+    border-bottom: solid 2px #a1b29f;
+}
+.menu_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #323232;
+}
+.menu_link:hover{
+    border-bottom: solid 2px #a1b29f;
+}
+
+/* * header */
+
+.header_content{
+    max-width: 100%;
+    min-height: 601px;
+    background: url("../images/bg-header.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 268px;
+}
+.header_title{
+    font-family: 'Tenor Sans',sans-serif;
+    font-size: 48px;
+    line-height: 150%;
+    color: #F6F6F6;
+    text-align: center;
+    margin-bottom: 96px;
+}
+.container_for_link_header{
+    text-align: center;
+}
+.link_header{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C6D77;
+    background-color: #F6F6F6;
+    padding: 18px 59px;
+}
+
+/* * our work */
+
+.our_work{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.works{
+    padding-top: 100px;
+    max-width: 1161px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,260px);
+    gap: 50px 40px;
+    margin-bottom: 90px;
+}
+.work_card img{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.work_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 102.99%;
+    color: #323232;
+    text-align: center;
+}
+.container_for_link_more{
+    text-align: center;
+}
+.link_more{
+    display: inline-block;
+    width: 245px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background-color: #a1b29f;
+    text-align: center;
+    padding-top: 18px;
+    transition: background-color 0.5s ease;
+}
+.link_more:hover{
+    color: #a1b29f;
+    background-color: #ffffff;
+    border: 1px solid #a1b29f;
+}
+
+/* * technology */
+
+.technology{
+    padding-bottom: 160px;
+}
+.technology_list{
+    position: relative;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 57px;
+    margin-top: 100px;
+}
+.technology_decoration_line{
+    width: 1px;
+    height: 100%;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 30px;
+}
+.item_technology_colomm{
+    display: flex;
+    align-items: center;
+}
+.item_technology{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    color: #F6F6F6;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #a1b29f;
+    position: absolute; 
+}
+.item_technology_text{
+    line-height: 150%;
+    color: #000000;
+    margin-left: 103px;
+}
+
+/* * restoratiom */
+
+.restoratiom{
+    padding-bottom: 160px;
+}
+.content_restoration{
+    max-width: 100%;
+    min-height: 508px;
+    background: url("../images/bg-restoration.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 182px;
+}
+.title_restoration{
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    max-width: 950px;
+    margin: 0 auto;
+    font-size: 48px;
+    line-height: 150%;
+    color: #F6F6F6;
+    text-align: center;
+}
+
+/* * restoratiom master clases */
+
+.restoratiom_master_clases{
+    margin-bottom: 160px;
+}
+.restoratiom_master_clases_grid{
+    max-width: 1115px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 97px 100px;
+    margin-top: 100px;
+    align-items: end;
+}
+.card_master_on_master_clases img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+.card_master_on_master_clases p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #323232;
+    text-align: center;
+}
+
+/* * carpentry master clases*/
+
+.carpentry_master_clases{
+    padding-bottom: 160px;
+}
+.carpentry_master_clases_flex{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card_carpentry_master_clases img{
+    display: block;
+    margin-bottom: 20px;
+}
+.card_carpentry_master_clases p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #323232;
+    text-align: center;
+}
+
+/* * footer */
+
+.footer{
+    max-width: 100%;
+    min-height: 380px;
+    background-color: #715B4B;
+}
+.footer_content{
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    max-width: 248px;
+}
+.info p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.footer_menu{
+    display: flex;
+    column-gap: 52px;
+}
+.list_footer_menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.link_footer_menu{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.additional_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+.link_additional_info{
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.footer_socoal_icons{
+    display: flex;
+    column-gap: 18px;
+}
